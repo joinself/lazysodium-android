@@ -46,7 +46,7 @@ android {
     }
     sourceSets.main {
         jni.srcDirs = []
-        jniLibs.srcDirs = ['src/main/jniLibs']
+        jniLibs.srcDirs = ['../omemo/src/main/jniLibs/']
 
         java {
             srcDir "../lazysodium-java/src/main/java"
